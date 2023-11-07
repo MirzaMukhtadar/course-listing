@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  font-family: Poppins-Regular;
+}
+h1,
+h2,
+p,
+h3,
+h4,
+h5,
+h6,
+button,
+input {
+  font-family: "Poppins", sans-serif;
+}
+
+.container,
+.container-fluid,
+.container-xxl,
+.container-xl,
+.container-lg,
+.container-md,
+.container-sm {
+  width: 100%;
+  padding-right: auto;
+  padding-left: auto;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 576px) {
+  .container-sm,
+  .container {
+    max-width: 540px;
+  }
+}
+@media (min-width: 768px) {
+  .container-md,
+  .container-sm,
+  .container {
+    max-width: 720px;
+  }
+}
+@media (min-width: 992px) {
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container {
+    max-width: 960px;
+  }
+}
+@media (min-width: 1200px) {
+  .container-xl,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container {
+    max-width: 1140px;
+  }
+}
+@media (min-width: 1400px) {
+  .container-xxl,
+  .container-xl,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container {
+    max-width: 1320px;
+  }
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.main-button {
+  background-color: #2c4db1;
+  padding: 10px;
+  border: 0;
+  outline: 0;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s ease; /* Add transition for background color */
+}
+@media only screen and (max-width: 768px) {
+  body {
+    padding: 0px 10px 0px 10px;
+  }
+}

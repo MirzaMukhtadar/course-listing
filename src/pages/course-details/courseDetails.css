@@ -1,0 +1,96 @@
+.flex-course-content {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: rgba(215, 64, 64, 0.8);
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  position: relative;
+}
+
+.flex-back-button {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.flex-course-details {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 30px;
+  position: relative;
+  z-index: 1;
+  height: 400px;
+}
+
+.course-info {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  position: relative;
+  z-index: 2;
+}
+
+.selected-course-name {
+  margin-top: 10px;
+}
+
+.course-info h2,
+.course-info h3 {
+  margin: 0;
+}
+
+.course-other-details {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #2c4db1;
+  border-radius: 10px;
+}
+
+.student-card {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.flex-student-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.student-card i {
+  font-size: 50px;
+}
+.syllabus-card {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.prerequisites-card {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+@media only screen and (max-width: 768px) {
+  .course-other-details {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+  }
+  .flex-student-card {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}

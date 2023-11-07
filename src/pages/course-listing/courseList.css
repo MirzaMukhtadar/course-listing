@@ -1,0 +1,71 @@
+.flex_course_box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  margin: 10px;
+  gap: 10px;
+}
+.card_course {
+  background-color: rgb(255 255 255);
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  width: 100%;
+  height: 50px;
+}
+.instructor_name {
+  width: 220px;
+}
+.course_name {
+  width: 266px;
+}
+.search-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+}
+.search_input {
+  width: 20%;
+  border-radius: 10px;
+  border: 1px solid;
+  padding: 10px;
+}
+.dashboard_button {
+  background-color: #00ffff;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  cursor: pointer;
+}
+.flex-btn-details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+  .flex_course_box {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 10px 0px 10px;
+  }
+  .card_course {
+    width: auto;
+  }
+  .instructor_name {
+    width: 100px;
+  }
+  .course_name {
+    width: 130px;
+  }
+  .img-course {
+    display: none;
+  }
+}
