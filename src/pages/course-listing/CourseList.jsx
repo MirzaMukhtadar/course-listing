@@ -88,7 +88,7 @@ function CourseList() {
                     width={"50px"}
                     className="img-course"
                   />
-                  <button>
+                  <button className="main-button">
                     {" "}
                     <Link
                       to={`/course-details/${data.id}`}
