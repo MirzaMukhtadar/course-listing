@@ -1,5 +1,14 @@
 # Getting Started with Create React App
 
+Course Listing Task
+
+Steps to run project
+
+1. Clone github Repository from github to your local system
+2. Open VS Code and clone Github Repo.
+3. open terminal and run command (npm i) to install dependencies.
+4. after installing run command npm start to run the project.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
