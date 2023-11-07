@@ -52,16 +52,16 @@ function CourseList() {
   };
 
   const handleCourseClick = (data) => {
-    // Store the selected course details in local storage
     localStorage.setItem("selectedCourse", JSON.stringify(data));
   };
   return (
     <>
       <div className="container">
+        <h2 className="text-center">Course List</h2>
         <div className="search-box">
           <input
             type="text"
-            placeholder="Search for a course"
+            placeholder="Search for a course..."
             value={searchQuery}
             onChange={handleSearchChange}
             className="search_input"
