@@ -31,7 +31,7 @@ function CourseDetails() {
           <Link to={"/"}>
             <i className="fa-solid fa-chevron-left"></i>
           </Link>
-          <h1>Course Details</h1>
+          <h1>Course Detail</h1>
         </div>
         <div className="flex-course-content" style={imageStyle}>
           <div className="flex-course-details">
